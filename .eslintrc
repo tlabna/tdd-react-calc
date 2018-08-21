@@ -1,0 +1,15 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "arrowParens": "always",
+        "trailingComma": "es5",
+        "jsxBracketSameLine": true
+      }
+    ]
+  }
+}
